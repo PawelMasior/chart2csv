@@ -13,11 +13,9 @@
 
 Below is a list of chart digitization services and tools identified so far:
 
-// Each tool is briefly described for applicability and usefulness:
-
 - [deplot (Hugging Face)](https://huggingface.co/spaces/nielsr/deplot) – Transformer-based model for chart-to-table conversion; works well for simple bar/line charts, but may struggle with complex layouts.
-- [PlotDigitizer](https://plotdigitizer.com/) – User-friendly web app for manual and semi-automatic chart digitization; good for quick, small-scale tasks.
-- [WebPlotDigitizer](https://automeris.io/) ([YouTube Demo](https://www.youtube.com/watch?v=-U15YSho61Y)) – Versatile, widely used tool supporting many chart types; offers both manual and automated extraction, suitable for research and batch processing.
+
+### Unchecked tools that may work
 - [ChartOCR](https://github.com/zmykevin/ChartOCR) – Open-source deep learning approach for extracting data from chart images; promising for automation, but may require setup and tuning.
 - [Pix2Struct](https://huggingface.co/docs/transformers/en/model_doc/pix2struct) – Vision-language model for structured data extraction from images; experimental, best for prototyping and research.
 - [Chart2Data (Microsoft Store)](https://apps.microsoft.com/detail/9wzdncrdrx6f?hl=pl-PL&gl=PL) – Windows app for chart digitization; easy to use, but limited to desktop and closed-source.
@@ -27,6 +25,17 @@ Below is a list of chart digitization services and tools identified so far:
 - [SciSpace](https://scispace.com/extract-data) – AI-powered tool for extracting data from scientific PDFs, including charts; best for academic/research use cases.
 - [ProductHubX - Chart2Data](https://producthubx.com/product/chart2data/143843) – Marketplace product for chart digitization; details and performance may vary.
 - [Docupipe.ai](https://www.docupipe.ai/) – AI platform for document automation; chart extraction is one of many features, more suited for business workflows.
+
+### Checked tools that didnt work
+
+Here are some additional tools, that i didnt find user friendly, no demo or bad performance
+- [PlotDigitizer](https://plotdigitizer.com/) – User-friendly web app for manual and semi-automatic chart digitization; good for quick, small-scale tasks.
+- [WebPlotDigitizer](https://automeris.io/) ([YouTube Demo](https://www.youtube.com/watch?v=-U15YSho61Y)) – Versatile, widely used tool supporting many chart types; offers both manual and automated extraction, suitable for research and batch processing. It is an app - not API service. Looks like most usecases came from academia.
+
+## Usage Example
+
+This repository includes a sample script [`src/deplot.py`](src/deplot.py) that demonstrates how to use the DePlot model to extract structured data from a chart image. The script loads an example chart (`charts/figure_10.png`), runs it through the DePlot model, and prints the extracted table or CSV data. You can adapt this script for your own chart images or integrate it into your data extraction pipeline.
+
 
 ## Approach & Key Considerations
 
