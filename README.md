@@ -18,19 +18,20 @@ Below is a list of chart digitization services and tools identified so far:
 ### Unchecked tools that may work
 - [ChartOCR](https://github.com/zmykevin/ChartOCR) – Open-source deep learning approach for extracting data from chart images; promising for automation, but may require setup and tuning.
 - [Pix2Struct](https://huggingface.co/docs/transformers/en/model_doc/pix2struct) – Vision-language model for structured data extraction from images; experimental, best for prototyping and research.
-- [Chart2Data (Microsoft Store)](https://apps.microsoft.com/detail/9wzdncrdrx6f?hl=pl-PL&gl=PL) – Windows app for chart digitization; easy to use, but limited to desktop and closed-source.
-- [Mindee](https://www.mindee.com) – Commercial API for document and data extraction; chart support is limited, but useful for broader document workflows.
-- [Extracta.ai](https://extracta.ai/) – Online service for extracting data from images and documents; chart support is basic, but can be integrated into pipelines.
-- [Trullion](https://trullion.com/products/data-extract/) – Enterprise solution focused on financial documents; chart extraction is a feature, but platform is not open for general use.
-- [SciSpace](https://scispace.com/extract-data) – AI-powered tool for extracting data from scientific PDFs, including charts; best for academic/research use cases.
-- [ProductHubX - Chart2Data](https://producthubx.com/product/chart2data/143843) – Marketplace product for chart digitization; details and performance may vary.
-- [Docupipe.ai](https://www.docupipe.ai/) – AI platform for document automation; chart extraction is one of many features, more suited for business workflows.
 
 ### Checked tools that didnt work
 
 Here are some additional tools, that i didnt find user friendly, no demo or bad performance
 - [PlotDigitizer](https://plotdigitizer.com/) – User-friendly web app for manual and semi-automatic chart digitization; good for quick, small-scale tasks.
 - [WebPlotDigitizer](https://automeris.io/) ([YouTube Demo](https://www.youtube.com/watch?v=-U15YSho61Y)) – Versatile, widely used tool supporting many chart types; offers both manual and automated extraction, suitable for research and batch processing. It is an app - not API service. Looks like most usecases came from academia.
+- [Docupipe.ai](https://www.docupipe.ai/) – AI platform for document automation; chart extraction is one of many features, more suited for business workflows - wrong chart data extraction.
+- [ProductHubX - Chart2Data](https://producthubx.com/product/chart2data/143843) – Marketplace product for chart digitization; details and performance may vary. - not working.
+- [SciSpace](https://scispace.com/extract-data) – AI-powered tool for extracting data from scientific PDFs, including charts; best for academic/research use cases. - Uploading files. Please wait...
+- [Trullion](https://trullion.com/products/data-extract/) – Enterprise solution focused on financial documents; chart extraction is a feature, but platform is not open for general use. - Book a demo? Not sure its actually working...
+- [Extracta.ai](https://extracta.ai/) – Online service for extracting data from images and documents; chart support is basic, but can be integrated into pipelines. - manual setting firelds - wtf
+- [Mindee](https://www.mindee.com) – Commercial API for document and data extraction; chart support is limited, but useful for broader document workflows. - create a custom model for charts - Not correct
+- [Extracta.ai](https://extracta.ai/) – Online service for extracting data from images and documents; chart support is basic, but can be integrated into pipelines. - error: Output is invalid
+- [Chart2Data (Microsoft Store)](https://apps.microsoft.com/detail/9wzdncrdrx6f?hl=pl-PL&gl=PL) – Windows app for chart digitization; easy to use, but limited to desktop and closed-source. - GUI app with terrible interface
 
 ## Usage Example
 

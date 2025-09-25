@@ -1,0 +1,6 @@
+✅ Chart Processed Successfully
+Processing Time: 27.15s
+Status: Ready for analysis
+Chart Type: MULTILINE GRAPH
+❌ Processing Error
+Error extracting multiline data with Claude: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': None}
