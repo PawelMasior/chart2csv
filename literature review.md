@@ -1,6 +1,6 @@
-## Literature Review
+## 📚 Literature Review
 
-### Key Papers
+### 📝 Key Papers
 
 - [AskChart: Universal Chart Understanding through Textual Enhancement](https://arxiv.org/abs/2412.19146)  
   *Proposes a universal approach for chart understanding using textual enhancement.*
@@ -26,30 +26,32 @@
 - [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395)  
   *Discusses scalable training strategies for small language models.*
 
-#### Other Notable Works
+ - [Enhancing Chart-to-Text Conversion](https://cs231n.stanford.edu/2024/papers/enhancing-chart-to-text-conversion.pdf) 
+  *Explores techniques to enhance the chart-to-text conversion capabilities of the Matcha framework, which employs
+a Vision Transformer (ViT) encoder and a transformer decoder*
 
-- With the advancement of multimodal large language models (MLLMs), recent studies aim to automatically perform various chart understanding tasks (e.g., ChartQA and Chart-to-Text) by pretraining MLLMs on large-scale chart-related corpora (Masry et al., 2023; Han et al., 2023; Meng et al., 2024).  
-  For example, ChartAst (Meng et al., 2024) is trained on a large-scale instruction-following chart-related corpus based on Donut (Kim et al., 2022) and SPHINX (Lin et al., 2023) models, and demonstrates strong performance in ChartQA, Chart-to-Text, and Chart-to-Table tasks.
+#### 🌟 Other Notable Works
 
 - [AskChart (GitHub)](https://github.com/Sootung/AskChart)
+  *Discusses advancement of multimodal large language models (MLLMs).*
 
 ---
 
-### Datasets
+### 📊 Datasets
 
 - [niups/DeepRuleDataset](https://huggingface.co/datasets/niups/DeepRuleDataset/tree/main)  
   *A dataset for deep rule-based chart understanding.*
 
 ---
 
-## Related Services & Tools
+## 🛠️ Related Services & Tools
 
 Below is a list of chart digitization services and tools identified so far, with brief notes on applicability and usefulness:
 
 - [deplot (Hugging Face)](https://huggingface.co/spaces/nielsr/deplot)  
   *Transformer-based model for chart-to-table conversion; works well for simple bar/line charts, but may struggle with complex layouts.*
 
-### Unchecked Tools That May Work
+### 🧪 Unchecked Tools That May Work
 
 - [ChartOCR](https://github.com/zmykevin/ChartOCR)  
   *Open-source deep learning approach for extracting data from chart images; promising for automation, but may require setup and tuning.*
@@ -57,7 +59,7 @@ Below is a list of chart digitization services and tools identified so far, with
 - [Pix2Struct](https://huggingface.co/docs/transformers/en/model_doc/pix2struct)  
   *Vision-language model for structured data extraction from images; experimental, best for prototyping and research.*
 
-### Checked Tools That Didn't Work or Had Issues
+### ⚠️ Checked Tools That Didn't Work or Had Issues
 
 Here are some additional tools that I found not user-friendly, lacking a demo, or with poor performance:
 
