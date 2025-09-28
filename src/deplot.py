@@ -3,6 +3,8 @@ import os
 import base64
 import base64
 import json
+import pandas as pd
+import matplotlib.pyplot as plt
 from io import BytesIO
 from PIL import Image
 from dotenv import load_dotenv
